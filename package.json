@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@symfony/stimulus-bundle": "^2.23.0",
+    "@tailwindcss/postcss": "^4.1.1",
+    "postcss": "^8.5.3",
+    "postcss-loader": "^8.1.1",
+    "tailwindcss": "^4.1.1"
+  },
+  "scripts": {
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^5.1.0",
+    "webpack-notifier": "^1.15.0"
+  }
+}
